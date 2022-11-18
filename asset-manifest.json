@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cansin-portfolio-app/static/css/main.06182a67.css",
-    "main.js": "/cansin-portfolio-app/static/js/main.e6baa670.js",
+    "main.js": "/cansin-portfolio-app/static/js/main.685f2ddf.js",
     "static/js/787.45caf66b.chunk.js": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js",
     "static/media/shoppingPage.png": "/cansin-portfolio-app/static/media/shoppingPage.a5399f065de6d3f473b6.png",
     "static/media/tributePage.png": "/cansin-portfolio-app/static/media/tributePage.b426d5b685fa0bcf95cd.png",
     "static/media/band.png": "/cansin-portfolio-app/static/media/band.69919135866c629ec5c9.png",
     "static/media/portfolio.png": "/cansin-portfolio-app/static/media/portfolio.e4a994c021f562cbf10b.png",
-    "static/media/Cansin_Alkac_Gök_CV.pdf": "/cansin-portfolio-app/static/media/Cansin_Alkac_Gök_CV.4a86b62992c80957b52f.pdf",
+    "static/media/Cansin_Alkac_Gök_CV.pdf": "/cansin-portfolio-app/static/media/Cansin_Alkac_Gök_CV.fb34e2239a0f7b6e7fea.pdf",
     "static/media/dogsInformation.png": "/cansin-portfolio-app/static/media/dogsInformation.a2bab6e3e3b4aaebb688.png",
     "static/media/profile.jpg": "/cansin-portfolio-app/static/media/profile.494a3df9d1263d6473c9.jpg",
     "static/media/checkingAccount.png": "/cansin-portfolio-app/static/media/checkingAccount.e135548a158ac1c31de1.png",
@@ -17,11 +17,11 @@
     "static/media/lightSwitch.png": "/cansin-portfolio-app/static/media/lightSwitch.3f6b4f786841709bb1de.png",
     "index.html": "/cansin-portfolio-app/index.html",
     "main.06182a67.css.map": "/cansin-portfolio-app/static/css/main.06182a67.css.map",
-    "main.e6baa670.js.map": "/cansin-portfolio-app/static/js/main.e6baa670.js.map",
+    "main.685f2ddf.js.map": "/cansin-portfolio-app/static/js/main.685f2ddf.js.map",
     "787.45caf66b.chunk.js.map": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06182a67.css",
-    "static/js/main.e6baa670.js"
+    "static/js/main.685f2ddf.js"
   ]
 }
