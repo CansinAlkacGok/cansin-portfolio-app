@@ -17,8 +17,7 @@ export default function About() {
             <p>Hi! My name is Cansin. I live in Berlin. I am really happy to be able to create this page and tell you
                 something about myself as a fullstack web developer.</p>
             <p>I am an enthusiastic and quick-learning Full Stack Web Developer who is passionate about life-long learning. My work experience in various fields, as you can see in my Resume, has exposed me to different industries, allowed me to work cooperatively with people of diverse backgrounds on multinational projects, and shaped my ability seek solutions from different perspectives.</p>
-            <p>I can define my self well-organized, neat, motivated and always trying to look at the bright side of
-                things. I love spending my free time being with my family, traveling, reading, meditating and trekking. </p>
+            <p>I can define my self well-organized, neat, solution oriented, open-minded, motivated and always trying to look at things from the bright side. I love spending my free time being with my family, traveling, reading, meditating and trekking. </p>
             <p>There are few technologies below I have been working so far: </p>
 
             <ul>
