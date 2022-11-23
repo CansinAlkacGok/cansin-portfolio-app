@@ -69,7 +69,7 @@ const works = [
     {
         name:'Find Dogs Information',
         img:dogsInformation,
-        url: '',
+        url: 'https://cansinalkacgok.github.io/find-dogs-information/',
         tech:[
             'REACT JS', 'CSS'
         ]
@@ -77,7 +77,7 @@ const works = [
     {
         name: 'Band Page',
         img: band,
-        url: '',
+        url: 'https://cansinalkacgok.github.io/band-pages/',
         tech:[
             'REACT JS', 'CSS'
         ]
