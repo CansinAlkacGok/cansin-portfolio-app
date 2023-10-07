@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home Component */
+
+.header {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navLink {
+  font-size: 1.3rem;
+}
+
+.app div button {
+  border: none;
+  font-size: 2rem;
+  background: transparent;
+  padding: 1rem;
+}
+
+.aside {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 0.7rem;
+  top: 22rem;
+}
+
+.aside a {
+  font-size: 1.2rem;
+}
+
+footer {
+  position: fixed;
+  font-size: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
+
+/* Opening Component */
+
+.opening {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: x-large;
+}
+
+.opening h1 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+main img {
+  width: 25%;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 3px solid #0a3329;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+main a {
+  border: 3px solid;
+  margin: 3rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+
+/* About */
+
+.about {
+  margin: 1.5rem auto;
+  width: 77%;
+  text-align: justify;
+  line-height: 1.2rem;
+  height: 31rem;
+  overflow: scroll;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.about p {
+  margin-bottom: 0rem;
+  margin-left: 0.8rem;
+}
+
+.about ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+}
+
+.about ul li {
+  list-style-type: none;
+  padding-left: 1rem;
+  padding-bottom: 0rem;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+/* Work */
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: 2rem auto;
+  padding: 0.3rem;
+}
+
+.work div {
+  min-width: 80%;
+  width: 80%;
+  margin: 0.2rem 0.1rem 0.5rem 1.5rem;
+}
+
+.work img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.work img:hover {
+  -webkit-filters: opacity(35%);
+  filter: opacity(35%);
+}
+
+.work p,
+.work ul {
+  padding-left: 0.5em;
+}
+
+.work li {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.work p {
+  font-size: 1rem;
+  text-underline-offset: 0.2rem;
+}
+
+.work ul {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Home Component */
+
+  footer {
+    font-size: 0.7rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* About */
+
+  .about{
+    line-height: 1.3rem;
+  }
+
+  .about ul li{
+    margin-bottom: 0.8rem;
+  }
+
+  /* Work */
+
+  .work {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem auto;
+    padding: 0.3rem;
+  }
+  
+  .work div {
+    min-width: 80%;
+    width: 80%;
+    margin: 0.2rem 0.1rem 0.5rem 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Home Component */
+
+  nav {
+    gap: 5rem;
+  }
+
+  .navLink {
+    font-size: 1.5rem;
+  }
+
+  .app div button {
+    font-size: 2.5rem;
+  }
+
+  .aside {
+    left: 2.5rem;
+    top: 35rem;
+  }
+
+  .aside a {
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  /* Opening Component */
+
+  .opening {
+    font-size: xx-large;
+  }
+
+  .opening h1 {
+    font-size: 3rem;
+  }
+
+  main img {
+    width: 15%;
+  }
+
+  main a {
+    padding: 1rem;
+  }
+
+  /* About */
+
+  .about {
+    margin: 0rem auto;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5rem;
+    overflow: unset;
+  }
+
+  .about h2 {
+    padding: 2rem;
+  }
+
+  .about p {
+    margin-bottom: 1rem;
+  }
+
+  .about ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about ul li {
+    padding-bottom: 2rem;
+    font-size: 1em;
+  }
+
+  /* Work */
+
+  .work {
+    grid-template-columns: repeat(4, 1fr);
+    width: 50%;
+    margin: 0.3rem auto;
+    padding: 1rem;
+  }
+
+  .work div {
+    margin: 1.5rem;
+    width: 100%;
+  }
+
+  .work p {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+
+  .work ul {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: smaller;
+    margin-left: 0.2rem;
   }
 }
