@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cansin-portfolio-app/static/css/main.ceef3da4.css",
-    "main.js": "/cansin-portfolio-app/static/js/main.ce26dd17.js",
+    "main.js": "/cansin-portfolio-app/static/js/main.b90b5047.js",
     "static/js/787.45caf66b.chunk.js": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js",
     "static/media/shoppingPage.png": "/cansin-portfolio-app/static/media/shoppingPage.a5399f065de6d3f473b6.png",
     "static/media/tributePage.png": "/cansin-portfolio-app/static/media/tributePage.b426d5b685fa0bcf95cd.png",
     "static/media/band.png": "/cansin-portfolio-app/static/media/band.69919135866c629ec5c9.png",
-    "static/media/CV.pdf": "/cansin-portfolio-app/static/media/CV.8139cf11fc5bdffcc7e0.pdf",
     "static/media/portfolio.png": "/cansin-portfolio-app/static/media/portfolio.e4a994c021f562cbf10b.png",
     "static/media/dogsInformation.png": "/cansin-portfolio-app/static/media/dogsInformation.a2bab6e3e3b4aaebb688.png",
+    "static/media/CV.pdf": "/cansin-portfolio-app/static/media/CV.adcc03ce4abafc8f132d.pdf",
     "static/media/profile.jpg": "/cansin-portfolio-app/static/media/profile.494a3df9d1263d6473c9.jpg",
     "static/media/inplace.png": "/cansin-portfolio-app/static/media/inplace.0deaad3ee2ab25babe2b.png",
     "static/media/checkingAccount.png": "/cansin-portfolio-app/static/media/checkingAccount.e135548a158ac1c31de1.png",
@@ -18,11 +18,11 @@
     "static/media/lightSwitch.png": "/cansin-portfolio-app/static/media/lightSwitch.3f6b4f786841709bb1de.png",
     "index.html": "/cansin-portfolio-app/index.html",
     "main.ceef3da4.css.map": "/cansin-portfolio-app/static/css/main.ceef3da4.css.map",
-    "main.ce26dd17.js.map": "/cansin-portfolio-app/static/js/main.ce26dd17.js.map",
+    "main.b90b5047.js.map": "/cansin-portfolio-app/static/js/main.b90b5047.js.map",
     "787.45caf66b.chunk.js.map": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceef3da4.css",
-    "static/js/main.ce26dd17.js"
+    "static/js/main.b90b5047.js"
   ]
 }
