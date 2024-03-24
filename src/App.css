@@ -177,6 +177,16 @@ main a {
     font-size: 0.7rem;
   }
 
+  /* Opening*/
+
+  .opening {
+    margin-top: 3rem;
+  }
+
+  main img {
+    width: 20%;
+  }
+
   /* About */
 
   .about{
@@ -218,8 +228,8 @@ main a {
   }
 
   .aside {
-    left: 2.5rem;
-    top: 35rem;
+    left: 1.2rem;
+    top: 21rem;
   }
 
   .aside a {
@@ -232,16 +242,8 @@ main a {
 
   /* Opening Component */
 
-  .opening {
-    font-size: xx-large;
-  }
-
-  .opening h1 {
-    font-size: 3rem;
-  }
-
   main img {
-    width: 15%;
+    width: 12%;
   }
 
   main a {

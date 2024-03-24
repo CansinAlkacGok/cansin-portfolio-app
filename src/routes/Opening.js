@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { HomeContext } from '../context/HomeContext';
 import '../App.css';
 import profile from '../assets/profile.jpg'
-import CV from '../assets/CV.pdf'
+import CV from '../assets/CV.pdf';
 
 export default function Opening() {
 

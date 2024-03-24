@@ -6,6 +6,7 @@ import { HomeContext } from '../context/HomeContext';
 import { NavLink, Outlet } from 'react-router-dom';
 import CV from '../assets/CV.pdf';
 
+
 export default function Home() {
 
     const { backgroundImage, backgroundColor, navColor, textColor, handleClick } = useContext(HomeContext)
