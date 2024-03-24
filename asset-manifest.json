@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cansin-portfolio-app/static/css/main.ceef3da4.css",
+    "main.css": "/cansin-portfolio-app/static/css/main.07c79069.css",
     "main.js": "/cansin-portfolio-app/static/js/main.b90b5047.js",
     "static/js/787.45caf66b.chunk.js": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js",
     "static/media/shoppingPage.png": "/cansin-portfolio-app/static/media/shoppingPage.a5399f065de6d3f473b6.png",
@@ -17,12 +17,12 @@
     "static/media/backgroundLight.png": "/cansin-portfolio-app/static/media/backgroundLight.0dc0248a94662fa2129c.png",
     "static/media/lightSwitch.png": "/cansin-portfolio-app/static/media/lightSwitch.3f6b4f786841709bb1de.png",
     "index.html": "/cansin-portfolio-app/index.html",
-    "main.ceef3da4.css.map": "/cansin-portfolio-app/static/css/main.ceef3da4.css.map",
+    "main.07c79069.css.map": "/cansin-portfolio-app/static/css/main.07c79069.css.map",
     "main.b90b5047.js.map": "/cansin-portfolio-app/static/js/main.b90b5047.js.map",
     "787.45caf66b.chunk.js.map": "/cansin-portfolio-app/static/js/787.45caf66b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceef3da4.css",
+    "static/css/main.07c79069.css",
     "static/js/main.b90b5047.js"
   ]
 }
